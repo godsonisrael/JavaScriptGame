@@ -37,8 +37,8 @@ const shop = new gameDesign({
 
 const player = new CharacterDesign({
     position: {
-        x: 0,
-        y: 0
+        x: 100,
+        y: 50
     },
     speed: {
         x: 0,
@@ -93,7 +93,7 @@ const player = new CharacterDesign({
 
 const enemy = new CharacterDesign({
     position: {
-        x: 400,
+        x: 1100,
         y: 100
     },
     speed: {
